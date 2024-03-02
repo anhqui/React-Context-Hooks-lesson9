@@ -12,7 +12,7 @@ function App() {
     dark: { syntax: "#ddd", ui: "#333", bg: "#555" },
   });
 
-  const toggleTheme = (theme) => {
+  const toggleTheme = () => {
     setTheme({ ...theme, isLightTheme: !theme.isLightTheme });
   };
 
